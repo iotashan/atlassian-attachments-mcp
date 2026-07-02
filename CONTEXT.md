@@ -28,6 +28,10 @@ _Avoid_: preview, icon
 Downloading every Attachment on one Container into a local directory.
 _Avoid_: export, sync, mirror
 
+**Sandbox Root**:
+The single local directory downloads are confined to; the server never writes outside it.
+_Avoid_: workspace, output dir, cache
+
 **Official Atlassian MCP**:
 Atlassian's own remote MCP server. This project complements it in the same client config; it never duplicates what that server already does.
 _Avoid_: Rovo MCP, Atlassian API
